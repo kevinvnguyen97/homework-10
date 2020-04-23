@@ -206,7 +206,7 @@ function checkId(inputId) {
         console.log("IDs used: " + usedIds);
         return false;
     }
-    else if (inputId === undefined || inputId <= 0) {
+    else if (isNaN(inputId) || inputId <= 0) {
         console.log("ID is not a valid number! Try again and enter a positive integer for the ID.");
     }
     else {
@@ -227,7 +227,7 @@ function checkEmail(inputEmail) {
 }
 
 function checkRoomNumber(inputRoomNumber) {
-    if (inputRoomNumber === undefined || inputRoomNumber <= 0) {
+    if (isNaN(inputRoomNumber) || inputRoomNumber <= 0) {
         console.log("Room number is not a valid number! Try again and enter a positive integer for the room number.");
         return false;
     }
@@ -256,7 +256,8 @@ function pushUniqueInfo(employee, inputId, inputEmail) {
 
 function renderPage() {
     console.log();
-    console.log("Full team: " + employees);
+    console.log("Full team:");
+    console.log(employees);
     console.log();
     fs.writeFileSync(outputPath, render(employees), function (error) {
         if (error) {
