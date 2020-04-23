@@ -101,7 +101,14 @@ inquirer.prompt([
 
     console.log(employees);
 
-    render(employees);
+    fs.writeFileSync("./output/index.html", render(employees), function(error) {
+        if(error) {
+            console.log(error);
+        }
+        else {
+            console.log("Success!");
+        }
+    });
 });
 
 // After the user has input all employees desired, call the `render` function (required
