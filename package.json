@@ -1,0 +1,30 @@
+{
+  "name": "homework-10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "init": "^0.1.2",
+    "inquirer": "^7.1.0",
+    "jest": "^25.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThaNinjaPower/homework-10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThaNinjaPower/homework-10/issues"
+  },
+  "homepage": "https://github.com/ThaNinjaPower/homework-10#readme"
+}
