@@ -46,4 +46,4 @@ For answers to common questions about this code of conduct, see the FAQ at https
 
 ## Test
 
-[Generated HTML](#output/team.html)
+[Generated HTML](#/output/team.html)
