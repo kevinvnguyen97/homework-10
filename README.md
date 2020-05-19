@@ -28,7 +28,7 @@ Download entire package from Github.
 
 ## License
 
-Kevin's README Generator Copyright (C) 2020 Kevin Nguyen
+Kevin's Team Builder App Copyright (C) 2020 Kevin Nguyen
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
