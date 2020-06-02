@@ -1,4 +1,4 @@
-# Homework 10: Team Builder Application
+# Homework 10: Team Builder App
 
 This application provides a user interface of all members of an engineering team. Each card contains a member, with their ID, email, role, and other properties, allowing colleagues to see each others information.
 
